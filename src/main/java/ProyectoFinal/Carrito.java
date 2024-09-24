@@ -1,10 +1,8 @@
-
 package ProyectoFinal;
 import java.util.ArrayList;
 
-
 public class Carrito {
-    private ArrayList<Producto> productos = new ArrayList<>();
+    private final ArrayList<Producto> productos = new ArrayList<>();
     private double total = 0;
     private final double IVA = 0.19;
 

@@ -1,4 +1,5 @@
 package ProyectoFinal;
+
 public class ProductoHerramientasElectronicas extends Producto {
     private int garantia;
 

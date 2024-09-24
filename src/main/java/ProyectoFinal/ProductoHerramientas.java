@@ -1,7 +1,7 @@
 package ProyectoFinal;
 
 public class ProductoHerramientas extends Producto {
-    private String material;
+    private final String material;
 
     public ProductoHerramientas(String nombre, double precio, String material) {
         super(nombre, precio);
@@ -12,12 +12,8 @@ public class ProductoHerramientas extends Producto {
         return material;
     }
 
-    public void setMaterial(String material) {
-        this.material = material;
-    }
-
     @Override
     public String toString() {
-        return super.toString() + " - material: " + material;
+        return super.toString() + " - Material: " + material;
     }
 }
