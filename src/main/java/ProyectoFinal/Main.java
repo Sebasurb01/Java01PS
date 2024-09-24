@@ -30,7 +30,7 @@ public class Main {
 
             switch (opcion) {
                 case 1:
-                    // Agregar producto al carrito
+
                     System.out.println("\nMenú de productos:");
                     for (int i = 0; i < productos.length; i++) {
                         System.out.println((i + 1) + ". " + productos[i]);

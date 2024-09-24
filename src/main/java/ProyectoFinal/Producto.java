@@ -10,7 +10,7 @@ public abstract class Producto {
         this.precio = precio;
     }
 
-    // Getters
+
     public String getNombre() {
         return nombre;
     }
@@ -18,6 +18,16 @@ public abstract class Producto {
     public double getPrecio() {
         return precio;
     }
+
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
 
     @Override
     public String toString() {
