@@ -1,14 +1,18 @@
 package ProyectoFinal;
-public class ProductoElectronico extends Producto {
+public class ProductoHerramientasElectronicas extends Producto {
     private int garantia;
 
-    public ProductoElectronico(String nombre, double precio, int garantia) {
+    public ProductoHerramientasElectronicas(String nombre, double precio, int garantia) {
         super(nombre, precio);
-        this.garantia = garantia; // En meses
+        this.garantia = garantia;
     }
 
     public int getGarantia() {
         return garantia;
+    }
+
+    public void setGarantia(int garantia) {
+        this.garantia = garantia;
     }
 
     @Override

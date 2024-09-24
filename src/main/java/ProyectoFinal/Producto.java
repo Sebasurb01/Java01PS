@@ -31,6 +31,6 @@ public abstract class Producto {
 
     @Override
     public String toString() {
-        return nombre + " - $" + precio;
+        return nombre + "  $" + precio;
     }
 }

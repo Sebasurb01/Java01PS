@@ -1,8 +1,8 @@
 package ProyectoFinal;
 
 public enum CategoriaProducto {
-    ROPA(1, "Ropa"),
-    ELECTRONICA(2, "Electrónica");
+    MANUAL(1, "Manual"),
+    ELECTRICO(2, "Electrico");
 
     private final int id;
     private final String nombre;
@@ -15,6 +15,7 @@ public enum CategoriaProducto {
     public String getNombre() {
         return nombre;
     }
+
 
     public static CategoriaProducto getForKey(int id) {
         for (CategoriaProducto c : CategoriaProducto.values()) {

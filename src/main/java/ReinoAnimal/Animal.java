@@ -1,7 +1,7 @@
 package ReinoAnimal;
 
 public class Animal {
-    // Atributos de la clase Animal
+
 
     public Animal(){
 

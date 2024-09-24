@@ -8,10 +8,10 @@ public class Main {
 
 
         Producto[] productos = {
-                new ProductoRopa("Camiseta", 20000, "M"),
-                new ProductoRopa("Pantalón", 30000, "L"),
-                new ProductoElectronico("Teléfono", 300000, 24),
-                new ProductoElectronico("Portátil", 8000001, 12)
+                new ProductoHerramientas("Martillo", 8000, "Madera/Metal"),
+                new ProductoHerramientas("Destornillador", 3000, "Acero/Plastico"),
+                new ProductoHerramientasElectronicas("Pulidora", 300000, 24),
+                new ProductoHerramientasElectronicas("Taladro", 800000, 12)
         };
 
         while (true) {
